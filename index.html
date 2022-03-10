@@ -1,22 +1,48 @@
 <html>
-    <head>
-        <title>La mia calcolatrice</title>
-        <link rel="stylesheet" href="stile.css">
-    </head>
-    <body>
 
-        <div id="display">12345689</div>
-        <br/>
-        <button>7</button>
-        <button>8</button>
-        <button>9</button>
-        <br/>
-        <button>4</button>
-        <button>5</button>
-        <button>6</button>
-        <br/>
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-    </body>
+<head>
+    <title>La mia calcolatrice</title>
+    <link rel="stylesheet" href="./stile.css">
+</head>
+
+<body>
+    <div>
+        <table class="calc">
+            <tr>
+                <td colspan="4"><input id="risultato" type="text" class="risultato" readonly></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="9" class="bottoneNum" onclick="mostra(9)"></td>
+                <td><input type="button" value="8" class="bottoneNum" onclick="mostra(8)"></td>
+                <td><input type="button" value="7" class="bottoneNum" onclick="mostra(7)"></td>
+                <td><input type="button" value="/" class="bottoneOpe" onclick="mostra('/')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="6" class="bottoneNum" onclick="mostra(6)"></td>
+                <td><input type="button" value="5" class="bottoneNum" onclick="mostra(5)"></td>
+                <td><input type="button" value="4" class="bottoneNum" onclick="mostra(4)"></td>
+                <td><input type="button" value="x" class="bottoneOpe" onclick="mostra('x')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="3" class="bottoneNum" onclick="mostra(3)"></td>
+                <td><input type="button" value="2" class="bottoneNum" onclick="mostra(2)"></td>
+                <td><input type="button" value="1" class="bottoneNum" onclick="mostra(1)"></td>
+                <td><input type="button" value="-" class="bottoneOpe" onclick="mostra('-')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="," class="bottoneNum" onclick="mostra(',')"></td>
+                <td><input type="button" value="0" class="bottoneNum" onclick="mostra(0)"></td>
+                <td><input type="button" value="C" class="bottoneNum" onclick="mostra('C')"></td>
+                <td><input type="button" value="+" class="bottoneOpe" onclick="mostra('+')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="%" class="bottoneOpe" onclick="mostra('%')"></td>
+                <td><input type="button" value="+/-" class="bottoneOpe" onclick="mostra('+/-')"></td>
+                <td colspan="2"><input type="button" value="=" class="bottoneUgu" onclick="mostra('=')"></td>
+            </tr>
+        </table>
+    </div>
+    <script type="text/javascript" src="./codice.js"></script>
+</body>
+
 </html>

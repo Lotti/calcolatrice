@@ -1,10 +1,33 @@
-#display {
-    border: 1px solid black;
-    width: 100px
+.calc {
+    border:1px solid darkgrey;
+/*    padding:10px; */
+    }
+
+tr, td {
+    border:1px /*solid darkgrey;
+/*  padding:40px; */
+    }
+
+
+.bottoneNum {
+    width:50px;
+    height:50px;
 }
 
-#finestra {
- background-color: darkgray;
- color:burlywood;
- font-size: 18pt;
+.bottoneUgu {
+    width:104px;
+    height:50px;
+    background-color:cornflowerblue;
+}
+
+.bottoneOpe {
+    width:50px;
+    height:50px;
+    background-color:aqua;
+}
+
+.risultato {
+    width:210px;
+    height:50px;
+    background-color:aliceblue;
 }
