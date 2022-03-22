@@ -1,13 +1,10 @@
 .calc {
     border:1px solid darkgrey;
-/*    padding:10px; */
-    }
+}
 
 tr, td {
-    border:1px /*solid darkgrey;
-/*  padding:40px; */
-    }
-
+    border:1px;
+}
 
 .bottoneNum {
     width:50px;
