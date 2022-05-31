@@ -49,7 +49,6 @@ function alberoDiNataleLaVendetta(righe) {
     palle += 2;
   }
 }
-alberoDiNataleLaVendetta(10);
 
 function alberoDiNatale(righe) { // 10
   if (righe < 5) {
@@ -88,7 +87,9 @@ function alberoDiNatale(righe) { // 10
     a_capo();
   }
 }
+
 alberoDiNatale(10);
+// alberoDiNataleLaVendetta(10);
 // alberoDiNatale(20);
 // alberoDiNatale(5);
 // alberoDiNatale(3);
